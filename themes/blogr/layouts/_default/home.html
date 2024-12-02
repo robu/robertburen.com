@@ -1,3 +1,25 @@
-{{ define "main" }} {{ .Content }} {{ range site.RegularPages }}
-<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-{{ .Summary }} {{ end }} {{ end }}
+{{ define "main" }}
+<div class="container">
+    <section class="post-list">
+        {{ range .Paginator.Pages }}
+        <article class="post-preview">
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p class="meta">
+                Published on {{ .Date.Format "January 2, 2006" }} {{ with
+                .Params.categories }} | Categories: {{ delimit . ", " }}{{ end
+                }}
+            </p>
+            <p class="excerpt">{{ .Summary }}</p>
+            <a href="{{ .Permalink }}" class="read-more">Read More</a>
+        </article>
+        {{ end }}
+        <div class="pagination">
+            {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}">Previous</a>
+            {{ end }} {{ if .Paginator.HasNext }}
+            <a href="{{ .Paginator.Next.URL }}">Next</a>
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}

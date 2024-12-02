@@ -19,3 +19,6 @@ menu:
         - name: "About Me"
           url: "/about/"
           weight: 3
+taxonomies:
+    category: "categories"
+    tag: "tags"

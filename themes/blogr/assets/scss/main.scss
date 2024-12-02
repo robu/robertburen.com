@@ -62,18 +62,34 @@ header {
 
 /* Post List Styles */
 .post-list {
-    margin: 2rem 0;
+    background-color: #f8f8f8; /* Light gray background for the content list */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1.5rem; /* Inner spacing around the list */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 2rem 0; /* Add spacing around the list */
 }
 
 .post-preview {
-    background: #fff;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem; /* Space between posts */
+    padding-bottom: 1rem; /* Space below each post */
+    border-bottom: 1px solid #ddd; /* Subtle divider between posts */
+
+    &:last-child {
+        border-bottom: none; /* Remove border for the last post */
+    }
 
     h2 {
         margin-bottom: 0.5rem;
+
+        a {
+            color: #333; /* Darker color for titles */
+            text-decoration: none;
+
+            &:hover {
+                color: #007acc; /* Match hover color with link styles */
+                text-decoration: underline;
+            }
+        }
     }
 
     .meta {
@@ -88,11 +104,12 @@ header {
     }
 
     .read-more {
-        color: #007acc;
+        color: #007acc; /* Bright blue for "Read More" links */
         text-decoration: none;
         font-weight: bold;
 
         &:hover {
+            color: #005f99; /* Slightly darker blue on hover */
             text-decoration: underline;
         }
     }
