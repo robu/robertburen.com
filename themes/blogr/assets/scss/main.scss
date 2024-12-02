@@ -1,7 +1,7 @@
 /* General Body Styles */
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    line-height: 1.4;
     background-color: #f9f9f9;
     color: #333;
     margin: 0;
@@ -264,23 +264,51 @@ footer {
 }
 
 /* Responsive Styles */
+@media (max-width: 600px) {
+    .about-page {
+        .about-content {
+            .about-image {
+                max-width: 200px;
+            }
+        }
+    }
+}
 @media (max-width: 400px) {
     header {
         padding: 1rem; /* Maintain padding for smaller screens */
+        .container {
+            flex-direction: column; /* Stack logo and menu vertically */
+            align-items: center; /* Center align logo and menu */
+            nav ul {
+                flex-direction: column; /* Stack menu items vertically */
+                margin-top: 1rem; /* Add spacing between logo and menu */
+                text-align: center; /* Center align menu items */
+                line-height: 0;
+                li: {
+                    margin: 0 0;
+                    padding: 0 0;
+                }
+            }
+
+            .logo {
+                margin-left: 0; /* Remove left margin for centering */
+                margin-bottom: 1rem;
+                border-radius: 0;
+                max-height: 100px;
+                max-width: 100%;
+            }
+        }
     }
 
-    .container {
-        flex-direction: column; /* Stack logo and menu vertically */
-        align-items: center; /* Center align logo and menu */
-    }
-
-    nav ul {
-        flex-direction: column; /* Stack menu items vertically */
-        gap: 1rem;
-        margin-top: 1rem; /* Add spacing between logo and menu */
-    }
-
-    .logo {
-        margin-left: 0; /* Remove left margin for centering */
+    .about-page {
+        .about-content {
+            .about-image {
+                float: none; /* Remove float for full width */
+                margin-left: 0; /* Remove margin for full width */
+                margin-bottom: 1rem; /* Add space below the image */
+                max-width: 400px;
+                width: fit-content;
+            }
+        }
     }
 }
