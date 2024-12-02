@@ -1,13 +1,11 @@
 {{ define "main" }}
-<article class="post">
+<article class="post-page">
     <header>
         <h1>
             {{ .Title }} {{ if eq .Params.lang "en" }}
             <span class="lang-flag">🇺🇸</span>
-            <!-- English flag -->
             {{ else if eq .Params.lang "sv" }}
             <span class="lang-flag">🇸🇪</span>
-            <!-- Swedish flag -->
             {{ end }}
         </h1>
         {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }} {{

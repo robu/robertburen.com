@@ -120,40 +120,43 @@ header {
 }
 
 /* Post Page Styles */
-article.post {
-    background: #000;
-    color: #fff;
+.post-page {
+    background-color: #fff; /* White background for the post page */
+    color: #333; /* Set text color to dark for readability */
     padding: 2rem;
     border-radius: 8px;
     margin: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 
     header {
+        background-color: transparent; /* Ensure the header has no background color */
+        padding: 0; /* Reset padding for header */
         h1 {
             font-size: 2rem;
-            color: #fff;
-            margin-bottom: 0.5rem;
+            color: #333; /* Dark color for the title */
+            margin-bottom: 1rem;
         }
 
         .meta {
             font-size: 0.9rem;
-            color: #aaa;
+            color: #666;
+            margin-bottom: 1rem;
         }
     }
 
     .content {
         font-size: 1rem;
         line-height: 1.8;
-        color: #ddd;
-        margin-top: 1.5rem;
+        color: #333; /* Standard dark text for content */
     }
 
-    /* Modify link colors for better visibility on dark background */
+    /* Modify link colors for better visibility */
     a {
-        color: #ffd700; /* Gold color for better contrast */
+        color: #007acc; /* Blue color for links */
         text-decoration: none;
 
         &:hover {
-            color: #ffcc00; /* Slightly lighter gold on hover */
+            color: #005f99; /* Darker blue on hover */
             text-decoration: underline;
         }
     }
@@ -163,11 +166,11 @@ article.post {
         font-size: 0.9rem;
 
         a {
-            color: #ffd700; /* Gold color for tag links */
+            color: #007acc; /* Blue color for tag links */
             text-decoration: none;
 
             &:hover {
-                color: #ffcc00; /* Slightly lighter gold on hover */
+                color: #005f99; /* Darker blue on hover */
                 text-decoration: underline;
             }
         }
