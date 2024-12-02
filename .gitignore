@@ -1,0 +1,40 @@
+# macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Hugo build output
+/public/
+/resources/_gen/
+hugo_stats.json
+
+# VS Code-specific files
+.vscode/
+*.code-workspace
+
+# Log files
+*.log
+
+# System files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.swp
+*.swo
+*.tmp
+
+# Node-related (if using npm for dependencies)
+node_modules/
+package-lock.json
+yarn.lock
+
+# SASS/SCSS cache (if using Hugo's asset pipeline)
+.sass-cache/
+
+# Other IDE or editor files
+.idea/
+*.iml
+*.sublime-workspace
+
+# Temporary Hugo directories
+/.hugo_build.lock

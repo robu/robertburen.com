@@ -1,0 +1,151 @@
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* General Container Styles */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0; /* Add vertical padding for all content */
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align logo and menu vertically */
+  padding: 1rem 2rem; /* Add spacing inside the header */
+  background-color: #000;
+  color: #fff;
+}
+
+header .logo {
+  max-height: 50px; /* Prevent oversized logos */
+  border-radius: 50%; /* Optional: Create a circular effect */
+  margin-right: 1rem; /* Add spacing between the logo and menu */
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem; /* Space between menu items */
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff; /* Change text color to white */
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #ccc; /* Subtle hover effect for menu links */
+}
+
+/* Post Content Styles */
+article.post {
+  background: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+article.post header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+article.post .meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+article.post .content {
+  font-size: 1rem;
+}
+
+/* Post List Styles */
+section.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem; /* Space between grid items */
+  padding: 2rem 4rem; /* Add extra padding to the sides */
+  margin: 0 auto; /* Center the grid on the page */
+  max-width: 1200px; /* Limit width for readability */
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+article.post-preview {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.post-list {
+  border: 5px solid red; /* Temporary style for debugging */
+}
+
+article.post-preview h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+article.post-preview .meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+article.post-preview .excerpt {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+article.post-preview .read-more {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article.post-preview .read-more:hover {
+  text-decoration: underline;
+}
+
+/* Pagination */
+div.pagination {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+
+div.pagination a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #007acc;
+}
+
+div.pagination a:hover {
+  text-decoration: underline;
+}
+
+/* General Link Styles */
+a {
+  color: #007acc; /* A more muted blue for all links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005f99; /* Darker blue on hover */
+}

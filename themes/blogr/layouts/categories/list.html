@@ -1,0 +1,11 @@
+<section class="categories">
+    <h1>Categories</h1>
+    <ul>
+      {{ range .Pages }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a> ({{ len .Pages }})
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+  

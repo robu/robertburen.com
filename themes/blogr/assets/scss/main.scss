@@ -1,0 +1,122 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* General Container */
+  .container {
+    max-width: 1024px;
+    margin: 0 auto; /* Center the content */
+    padding: 0 1rem; /* Add horizontal padding for smaller screens */
+  }
+  
+/* Header Styles */
+/* Header Styles */
+  header {
+    background-color: #000; /* Black background for the header */
+    padding: 1rem 0; /* Add vertical padding for the header */
+  
+    .container {
+      display: flex;
+      justify-content: space-between; /* Align logo to the left, menu to the right */
+      align-items: center; /* Vertically center content */
+      max-width: 1024px; /* Constrain the content width */
+      margin: 0 auto; /* Center the black area on the page */
+    }
+  
+    .logo {
+      max-height: 50px; /* Set a max height for the logo */
+      margin-left: 0; /* Fully align the logo to the left */
+      border-radius: 50%; /* Make the logo round */
+      overflow: hidden; /* Ensure the image doesn't spill outside the circle */    
+    }
+  
+    nav {
+      ul {
+        display: flex;
+        gap: 2rem; /* Space between menu items */
+        list-style: none; /* Remove bullets */
+        margin: 0;
+        padding: 0;
+  
+        li {
+          margin-right: 0; /* Reset right margin for consistency */
+  
+          a {
+            color: #fff; /* White text for menu links */
+            text-decoration: none;
+            font-weight: bold;
+  
+            &:hover {
+              color: #ccc; /* Subtle hover effect */
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Post List Styles */
+  .post-list {
+    margin: 2rem 0;
+  }
+  
+  .post-preview {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  
+    h2 {
+      margin-bottom: 0.5rem;
+    }
+  
+    .meta {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 1rem;
+    }
+  
+    .excerpt {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    .read-more {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 400px) {
+    header {
+      padding: 1rem; /* Maintain padding for smaller screens */
+    }
+  
+    .container {
+      flex-direction: column; /* Stack logo and menu vertically */
+      align-items: center; /* Center align logo and menu */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Stack menu items vertically */
+      gap: 1rem;
+      margin-top: 1rem; /* Add spacing between logo and menu */
+    }
+  
+    .logo {
+      margin-left: 0; /* Remove left margin for centering */
+    }
+  }

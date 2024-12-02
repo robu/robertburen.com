@@ -1,0 +1,26 @@
+name = "Blogr"
+description = "A modern responsive Hugo theme for blogging"
+version = "1.0.0"
+license = "MIT"
+min_version = "0.139.2"
+author = "Robert Burén"
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.139.2"
