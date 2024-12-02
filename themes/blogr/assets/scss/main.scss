@@ -147,16 +147,27 @@ article.post {
         margin-top: 1.5rem;
     }
 
+    /* Modify link colors for better visibility on dark background */
+    a {
+        color: #ffd700; /* Gold color for better contrast */
+        text-decoration: none;
+
+        &:hover {
+            color: #ffcc00; /* Slightly lighter gold on hover */
+            text-decoration: underline;
+        }
+    }
+
     .tags {
         margin-top: 1.5rem;
         font-size: 0.9rem;
 
         a {
-            color: #007acc;
+            color: #ffd700; /* Gold color for tag links */
             text-decoration: none;
 
             &:hover {
-                color: #005f99;
+                color: #ffcc00; /* Slightly lighter gold on hover */
                 text-decoration: underline;
             }
         }
