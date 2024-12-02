@@ -3,7 +3,16 @@
     <section class="post-list">
         {{ range where .Paginator.Pages "Section" "posts" }}
         <article class="post-preview">
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <h2>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                {{ if eq .Params.lang "en" }}
+                <span class="lang-flag">🇺🇸</span>
+                <!-- English flag -->
+                {{ else if eq .Params.lang "sv" }}
+                <span class="lang-flag">🇸🇪</span>
+                <!-- Swedish flag -->
+                {{ end }}
+            </h2>
             <p class="meta">
                 Published on {{ .Date.Format "January 2, 2006" }} {{ with
                 .Params.categories }} | Categories: {{ delimit . ", " }}{{ end
