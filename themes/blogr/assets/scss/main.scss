@@ -159,6 +159,36 @@ article.post {
     }
 }
 
+/* Categories Page Styles */
+.categories {
+    margin: 2rem 0;
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style: none; /* Remove bullet points */
+        padding: 0;
+
+        li {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+
+            a {
+                color: #007acc; /* Match the link color for consistency */
+                text-decoration: none;
+
+                &:hover {
+                    color: #005f99; /* Darker blue for hover effect */
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
 footer {
     padding: 1rem 0; /* Add some vertical padding */
     color: #666; /* Subtle text color */

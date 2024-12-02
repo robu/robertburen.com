@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container">
     <section class="post-list">
-        {{ range .Paginator.Pages }}
+        {{ range where .Paginator.Pages "Section" "posts" }}
         <article class="post-preview">
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <p class="meta">
