@@ -2,20 +2,20 @@ baseURL: "http://example.com/" # Replace with your site's URL
 title: "Robert Burén's Blog"
 theme: "blogr"
 pagination:
-  pagerSize: 10
-  path: "page"
+    pagerSize: 10
+    path: "page"
 params:
-  description: "A modern responsive blog"
-  author: "Robert Burén"
-  logo: "/logo.jpg"
+    description: "A modern responsive blog"
+    author: "Robert Burén"
+    logo: "/logo.jpg"
 menu:
-  main:
-    - name: "Home"
-      url: "/"
-      weight: 1
-    - name: "Categories"
-      url: "/categories/"
-      weight: 2
-    - name: "About Me"
-      url: "/about/"
-      weight: 3
+    main:
+        - name: "Home"
+          url: "/"
+          weight: 1
+        - name: "Categories"
+          url: "/categories/"
+          weight: 2
+        - name: "About Me"
+          url: "/about/"
+          weight: 3
