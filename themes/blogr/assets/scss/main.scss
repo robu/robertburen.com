@@ -19,6 +19,10 @@ body {
 header {
     background-color: #000; /* Black background for the header */
     padding: 1rem 0; /* Add vertical padding for the header */
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 
     .container {
         display: flex;
