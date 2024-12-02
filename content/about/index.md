@@ -5,4 +5,8 @@ type: "about"
 draft: false
 ---
 
-Robert Burén (that's me) was born in 1970 and grew up in Skellefteå, Sweden. He currently lives in Täby, Stockholm, with his wife and three children, and a small dog.
+Robert Burén (that's me) grew up in Skellefteå, Sweden. He currently lives in a Stockholm suburb, with his wife and three children, and a small dog.
+
+Robert has a background in computer science and has been working in the IT industry since 1996. Since 1998, Robert has been employed by consultant companies that he has been a cofounder of. Since 2011, Robert has been taking on assignments as interim CTO on various companies, as well as a Non-Executive Director on a few companies.
+
+If you are looking for a more detailed CV, you can find it on [LinkedIn](https://www.linkedin.com/in/robertburen/). LinkedIn is also a good place to get in touch with Robert, unless you already have his private email address.

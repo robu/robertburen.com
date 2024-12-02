@@ -234,6 +234,15 @@ article.post {
             text-align: left; /* Ensure the text is aligned to the left */
             overflow: hidden; /* Prevent content from overflowing */
             clear: left; /* Ensure text flows to the left of the image */
+            a {
+                color: rgb(0, 0, 135);
+                text-decoration: none;
+
+                &:hover {
+                    color: rgb(14, 7, 236);
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }
