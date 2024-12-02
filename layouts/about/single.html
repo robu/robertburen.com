@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container about-page">
+    <section class="about-content">
+        <h1>{{ .Title }}</h1>
+        <div class="about-image">
+            <img src="/logo.jpg" alt="{{ .Title }}" />
+        </div>
+        <div class="about-text">{{ .Content }}</div>
+    </section>
+</div>
+{{ end }}
