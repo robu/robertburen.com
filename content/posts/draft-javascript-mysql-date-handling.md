@@ -9,6 +9,7 @@ tags:
 - Javascript
 - Mysql
 - Date
+- Tech
 summary: My learnings when fighting timezones and date formats in Javascript and MySQL.
 ---
 

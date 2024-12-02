@@ -14,11 +14,17 @@
         $dateHuman := .Date | time.Format ":date_long" }}
         <p class="meta">
             <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-            {{ with .Params.categories }} | Categories: {{ delimit . ", " }}{{
-            end }} {{ with .Params.tags }} | Tags: {{ delimit . ", " }}{{ end }}
+
+            {{ with .Params.categories }} | Categories: {{ $first := true }} {{
+            range . }} {{ if not $first }} , {{ end }}
+            <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+            {{ $first = false }} {{ end }} {{ end }} {{ with .Params.tags }} |
+            Tags: {{ $first := true }} {{ range . }} {{ if not $first }} , {{
+            end }}
+            <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+            {{ $first = false }} {{ end }} {{ end }}
         </p>
     </header>
     <section class="content">{{ .Content }}</section>
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 </article>
 {{ end }}
