@@ -1,0 +1,28 @@
+{{ define "main" }}
+<article class="post-page">
+    <header>
+        <h1>
+            {{ .Title }} {{ if eq .Params.lang "en" }}
+            <span class="lang-flag">🇺🇸</span>
+            {{ else if eq .Params.lang "sv" }}
+            <span class="lang-flag">🇸🇪</span>
+            {{ end }}
+        </h1>
+        {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }} {{
+        $dateHuman := .Date | time.Format ":date_long" }}
+        <p class="meta">
+            <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+
+            {{ with .Params.categories }} | Categories: {{ $first := true }} {{
+            range . }} {{ if not $first }} , {{ end }}
+            <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+            {{ $first = false }} {{ end }} {{ end }} {{ with .Params.tags }} |
+            Tags: {{ $first := true }} {{ range . }} {{ if not $first }} , {{
+            end }}
+            <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+            {{ $first = false }} {{ end }} {{ end }}
+        </p>
+    </header>
+    <section class="content">{{ .Content }}</section>
+</article>
+{{ end }}
