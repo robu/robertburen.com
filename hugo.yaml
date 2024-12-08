@@ -13,12 +13,15 @@ menu:
         - name: "Home"
           url: "/"
           weight: 1
+        - name: "How to CTO"
+          url: "/cto/"
+          weight: 20
         - name: "Categories"
           url: "/categories/"
-          weight: 2
+          weight: 30
         - name: "About Me"
           url: "/about/"
-          weight: 3
+          weight: 99
 taxonomies:
     category: "categories"
     tag: "tags"
