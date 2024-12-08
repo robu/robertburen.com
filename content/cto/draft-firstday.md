@@ -12,6 +12,7 @@ tags:
 - Agile
 - Tech
 summary: What I generally do on my first day as a CTO
+weight: 1
 ---
 
 Lorem

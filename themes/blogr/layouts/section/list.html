@@ -4,9 +4,12 @@
 
     <!-- Show the content from the section's _index.md -->
     <div class="section-description">{{ .Content }}</div>
+
     <section class="post-list">
         {{ range .Paginator.Pages }}
-        <article class="post-preview">
+        <!-- Ensure weight is treated as an integer -->
+        {{ $weight := .Params.weight | int }}
+        <article class="post-preview" style="order: {{ $weight }}">
             <h2>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
             </h2>
@@ -19,6 +22,7 @@
             <a href="{{ .Permalink }}" class="read-more">Read More</a>
         </article>
         {{ end }}
+
         <div class="pagination">
             {{ if .Paginator.HasPrev }}
             <a href="{{ .Paginator.Prev.URL }}">Previous</a>
