@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="container">
+    <h1>{{ .Title }}</h1>
+
+    <!-- Show the content from the section's _index.md -->
+    <div class="section-description">{{ .Content }}</div>
+
+    <section class="post-list">
+        {{ range .Paginator.Pages }}
+        <!-- Ensure weight is treated as an integer -->
+        {{ $weight := .Params.weight | int }}
+        <article class="post-preview" style="order: {{ $weight }}">
+            <h2>
+                <a href="{{ .Permalink }}">{{ .Params.organization }}</a>
+            </h2>
+            <p class="meta">{{ .Params.period }}</p>
+            <p class="excerpt">{{ .Summary }}</p>
+        </article>
+        {{ end }}
+
+        <div class="pagination">
+            {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}">Previous</a>
+            {{ end }} {{ if .Paginator.HasNext }}
+            <a href="{{ .Paginator.Next.URL }}">Next</a>
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}
