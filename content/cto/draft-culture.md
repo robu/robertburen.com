@@ -1,7 +1,7 @@
 ---
-date: 2024-12-02T19:33:01+01:00
+date: 2024-12-08T20:17:51+01:00
 draft: true
-title: First day agenda
+title: Culture
 lang: en
 categories:
 - Software Development
@@ -11,8 +11,8 @@ tags:
 - Leadership
 - Agile
 - Tech
-summary: What I generally do on my first day as a CTO
-weight: 10
+summary: What is an effective culture for a tech team?
+weight: 99
 ---
 
 Lorem

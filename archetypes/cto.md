@@ -12,6 +12,7 @@ tags:
 - Agile
 - Tech
 summary: This is the line show in the list of posts.
+weight: 1
 ---
 
 Lorem
