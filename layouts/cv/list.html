@@ -6,12 +6,25 @@
     <div class="section-description">{{ .Content }}</div>
 
     <section class="cv-list">
-        {{ range .Pages }}
-        <!-- Ensure weight is treated as an integer -->
-        {{ $weight := .Params.weight | int }}
-        <article class="cv-item" style="order: {{ $weight }}">
-            <h2>{{ .Params.period }} &mdash; {{ .Params.organization }}</h2>
-            <p class="excerpt">{{ .Content }}</p>
+        {{ $pages := .Pages }} {{ $sortedPages := slice }}
+        <!-- Initialize an empty slice -->
+
+        <!-- Manually convert weight to int and sort pages -->
+        {{ range $pages }} {{ $weight := .Params.weight | default 0 | int }}
+        <!-- Convert weight to integer -->
+        {{ $sortedPages = $sortedPages | append (dict "page" . "weight" $weight) }}
+        <!-- Add the page and weight to the sortedPages slice -->
+        {{ end }}
+
+        <!-- Sort the pages manually by weight -->
+        {{ $sortedPages = sort $sortedPages "weight" }}
+        <!-- Sort by the weight field in the slice -->
+
+        <!-- Render sorted pages -->
+        {{ range $sortedPages }}
+        <article class="cv-item">
+            <h2>{{ .page.Params.period }} &mdash; {{ .page.Params.organization }}</h2>
+            <p class="excerpt">{{ .page.Content }}</p>
         </article>
         {{ end }}
     </section>
