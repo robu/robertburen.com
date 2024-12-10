@@ -1,0 +1,11 @@
+{{ $pages := .pages }}
+<!-- Get pages passed to the partial -->
+{{ $filter := .filter }}
+<!-- Get the filter value passed to the partial -->
+
+{{ range where $pages "page.Params.cv-section" $filter }}
+<article class="cv-item">
+    <h3>{{ .page.Params.period }} &mdash; {{ .page.Params.organization }}</h3>
+    {{ .page.Content }}
+</article>
+{{ end }}
