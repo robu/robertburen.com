@@ -5,7 +5,8 @@ title: KTH
 lang: en
 organization: Kungliga Tekniska Högskolan
 period: 1994 - 1996
-weight: 1996
+weight: 10
+cv-section: education
 type: cv
 ---
 

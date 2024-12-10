@@ -5,7 +5,8 @@ title: LTU
 lang: en
 organization: Luleå Tekniska Universitet
 period: 1989 - 1993
-weight: 1993
+weight: 20
+cv-section: education
 type: cv
 ---
 
