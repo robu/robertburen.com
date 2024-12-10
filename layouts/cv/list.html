@@ -21,10 +21,25 @@
         <!-- Sort by the weight field in the slice -->
 
         <!-- Render sorted pages -->
-        {{ range $sortedPages }}
+        <h2>Board work</h2>
+        {{ range where $sortedPages "page.Params.cv-section" "board" }}
         <article class="cv-item">
-            <h2>{{ .page.Params.period }} &mdash; {{ .page.Params.organization }}</h2>
-            <p class="excerpt">{{ .page.Content }}</p>
+            <h3>{{ .page.Params.period }} &mdash; {{ .page.Params.organization }}</h3>
+            {{ .page.Content }}
+        </article>
+        {{ end }}
+        <h2>Employment and Selected Consultant Assignments</h2>
+        {{ range where $sortedPages "page.Params.cv-section" "employment" }}
+        <article class="cv-item">
+            <h3>{{ .page.Params.period }} &mdash; {{ .page.Params.organization }}</h3>
+            {{ .page.Content }}
+        </article>
+        {{ end }}
+        <h2>Education</h2>
+        {{ range where $sortedPages "page.Params.cv-section" "education" }}
+        <article class="cv-item">
+            <h3>{{ .page.Params.period }} &mdash; {{ .page.Params.organization }}</h3>
+            {{ .page.Content }}
         </article>
         {{ end }}
     </section>
