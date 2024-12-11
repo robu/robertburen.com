@@ -24,7 +24,7 @@ summary: En sammanfattning av konsertåret 2024.
 
 ## The Jesus and Mary Chain, 2024-04-06
 
-## Annika Norlin, Orionteaatern, 2024-05-17
+## Annika Norlin, Orionteatern, 2024-05-17
 
 ## Taylor Swift, Friends Arena, 2024-05-19
 
