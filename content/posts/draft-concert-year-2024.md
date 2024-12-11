@@ -22,7 +22,7 @@ summary: En sammanfattning av konsertåret 2024.
 
 ## Wannadies, Cirkus, 2024-03-02
 
-## The Jesus and Mary Chain, 2024-04-06
+## The Jesus and Mary Chain, Münchenbryggeriet, 2024-04-06
 
 ## Annika Norlin, Orionteatern, 2024-05-17
 
