@@ -15,6 +15,16 @@ body {
     padding: 0 1rem; /* Add horizontal padding for smaller screens */
 }
 
+a {
+    color: rgb(0, 0, 135);
+    text-decoration: underline;
+
+    &:hover {
+        color: #007acc; /* Match hover color with link styles */
+        text-decoration: underline;
+    }
+}
+
 /* Header Styles */
 header {
     background-color: #000; /* Black background for the header */
@@ -242,7 +252,7 @@ header {
                 text-decoration: none;
 
                 &:hover {
-                    color: rgb(14, 7, 236);
+                    color: #007acc; /* Match hover color with link styles */
                     text-decoration: underline;
                 }
             }
