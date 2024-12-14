@@ -58,7 +58,13 @@ summary: En sammanfattning av konsertåret 2024.
 
 <img src='/images/concerts2024/wannadies2.jpg' class='full-width'>
 
+"Det här blir vår sista spelning nånsin!"
+
+Jag hade ingen aning, men det var kul att få vara med om det! Synd bara att de tänker lägga av just när dom börjar få lite fart igen!
+
 ## Monster Magnet, 2024-10-16, INSTÄLLT
+
+Har aldrig hört dem, men tänkte hänga på min kompis. Tyvärr inställt.
 
 ## Johan Airijoki, Debaser, 2024-10-25
 
