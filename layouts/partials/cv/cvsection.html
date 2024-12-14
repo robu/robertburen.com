@@ -6,6 +6,7 @@
 {{ range where $pages "page.Params.cv-section" $filter }}
 <article class="cv-item">
     <h3>{{ .page.Params.period }} &mdash; {{ .page.Params.organization }}</h3>
-    {{ .page.Content }}
+    <h4>{{ .page.Params.title }}</h4>
+    <div class="cv-item-content">{{ .page.Content }}</div>
 </article>
 {{ end }}
