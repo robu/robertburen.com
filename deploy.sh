@@ -16,8 +16,12 @@ echo "Deploying to S3 bucket $BUCKET_NAME..."
 aws s3 sync public/ s3://$BUCKET_NAME --delete --profile $AWS_PROFILE
 
 # Optionally, invalidate CloudFront cache if you're using CloudFront for CDN (uncomment if needed)
-# echo "Invalidating CloudFront cache..."
-# aws cloudfront create-invalidation --distribution-id your-distribution-id --paths "/*" --profile $AWS_PROFILE
+echo "Invalidating CloudFront cache..."
+aws cloudfront create-invalidation \
+    --distribution-id E38M1LAE0T5H91 \
+    --paths "/*" \
+    --profile $AWS_PROFILE \
+    --no-cli-pager
 
 # Output success message
 echo "Deployment to S3 bucket $BUCKET_NAME completed successfully."

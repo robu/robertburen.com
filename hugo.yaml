@@ -1,4 +1,4 @@
-baseURL: "http://example.com/" # Replace with your site's URL
+baseURL: "https://robertburen.com/"
 title: "Robert Burén's Blog"
 theme: "blogr"
 pagination:
