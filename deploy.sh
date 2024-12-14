@@ -13,7 +13,8 @@ hugo
 
 # Sync the public directory with S3, deleting any files in the bucket that are no longer in the public directory
 echo "Deploying to S3 bucket $BUCKET_NAME..."
-aws s3 sync public/ s3://$BUCKET_NAME --delete --profile $AWS_PROFILE
+# aws s3 sync public/ s3://$BUCKET_NAME --delete --profile $AWS_PROFILE
+aws s3 sync placeholder/ s3://$BUCKET_NAME --delete --profile $AWS_PROFILE
 
 # Optionally, invalidate CloudFront cache if you're using CloudFront for CDN (uncomment if needed)
 echo "Invalidating CloudFront cache..."
