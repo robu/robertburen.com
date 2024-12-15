@@ -9,4 +9,4 @@ cv-section: education
 type: cv
 ---
 
-Studies for Master of Science in Computer Science and Engineering ("Datatekniklinjen"), year 1-2
+Studies for Master of Science in Computer Science and Engineering ("Datatekniklinjen"), year 1-3.
