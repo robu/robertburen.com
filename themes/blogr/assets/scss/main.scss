@@ -17,7 +17,7 @@ body {
 
 a {
     color: rgb(0, 0, 135);
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
         color: #007acc; /* Match hover color with link styles */
