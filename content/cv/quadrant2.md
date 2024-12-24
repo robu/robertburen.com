@@ -10,4 +10,4 @@ cv-section: employment
 type: cv
 ---
 
-After a few years at OM Group, me and a colleague started our own consulting company. Most of my assignments were related to financial exchange technology, in C++ or Java.
+After a few years at OM Group, Robert and a colleague started their own consulting company. Most of the assignments were related to financial exchange technology, in C++ or Java.

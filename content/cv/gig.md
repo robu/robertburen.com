@@ -9,4 +9,4 @@ cv-section: board
 type: cv
 ---
 
-Lorem
+_To be written_

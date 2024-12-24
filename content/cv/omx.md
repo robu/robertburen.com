@@ -10,4 +10,4 @@ cv-section: employment
 type: cv
 ---
 
-My first real job! OM Group / OM Technology / OMX, now Nasdaq OMX, was at that point a marketplace for standardized options and futures contracts. They also sold their exchange technology to other marketplaces. I was part of the small team that developed the Windows trading client for the OM platform. The client was written in C++ and used the MFC framework.
+Robert's first real job! OM Group / OM Technology / OMX, now Nasdaq OMX, was at that point a marketplace for standardized options and futures contracts. They also sold their exchange technology to other marketplaces. Robert was part of the small team that developed the Windows trading client for the OM platform. The client was written in C++ and used the MFC framework.

@@ -1,6 +1,6 @@
 ---
-date: 2024-12-03T00:26:04+01:00
-draft: true
+date: 2024-12-24
+draft: false
 title: Konsertåret 2024
 lang: sv
 categories:
@@ -8,15 +8,23 @@ categories:
 tags:
 - Concerts
 - Music
+- Debaser
+- Annika Norlin
 - Taylor Swift
+- P!nk
+- Bruce Springsteen
 - Johan Airijoki
 - Frank Turner
-- Debaser
 - Wannadies
 - Cardigans
 - Soundtrack of Our Lives
+- Lars Demian
 summary: En sammanfattning av konsertåret 2024.
 ---
+
+För 2-3 år sedan nu så pratade jag och min fru om att vi båda tycker att det är kul att gå på konserter och att vi vill göra det mer. Efter det prioriterade vi att hålla koll på vilka konserter som kommer, när biljetterna släpps och att köpa biljetter lite spekulativt. Nästan alltid så passar det utmärkt, och i värsta fall har det inte varit något problem att sälja vidare biljetterna.
+
+I år har jag varit på dessa konserter, ibland med frun och ibland med kompisar. Sammantaget har det varit ett riktigt bra konsertår!
 
 ## 2024-02-21, Soundtrack of Our Lives, Cirkus
 
@@ -84,4 +92,4 @@ Har aldrig hört dem, men tänkte hänga på min kompis. Tyvärr inställt.
 
 ## 2024-12-21, Lars Demian, Fasching
 
-Snart...
+<img src='/images/concerts2024/larsd2.jpg' class='full-width rounded-corners'>

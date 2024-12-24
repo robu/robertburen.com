@@ -10,4 +10,4 @@ cv-section: employment
 type: cv
 ---
 
-We rebooted the consultant company with some friends from university who had run a very similar company in parallel with us.
+The earlier consultant company was rebooted with some friends from university who had run a very similar company in parallel with Robert's.
