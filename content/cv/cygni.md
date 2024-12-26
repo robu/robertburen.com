@@ -3,7 +3,7 @@ date: 2024-12-14T22:47:57+01:00
 draft: true
 lang: en
 organization: Cygni AB
-title: Founder, Board Member, Consultant Manager, Consultant
+title: Co-founder, Board Member, Consultant Manager, Consultant
 period: Apr 2006 - Present
 weight: 1
 cv-section: employment
