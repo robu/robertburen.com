@@ -3,7 +3,7 @@ date: 2024-12-15T02:49:01+01:00
 draft: true
 lang: en
 organization: Blocket
-title: Interim CTO
+title: Interim CTO (Consultant)
 period: Nov 2020 - May 2021
 weight: 89
 cv-section: employment
