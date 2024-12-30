@@ -4,6 +4,7 @@ draft: false
 title: Curriculum Vitae
 lang: en
 type: cv
+composition: true
 categories:
 - cv
 - Robert Burén

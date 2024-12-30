@@ -6,7 +6,11 @@
             {{ range .Pages }}
             <li>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
-                ({{ len .Pages }})
+                {{ if .Params.composition }}
+                <!-- Check if this page is composed of fragments -->
+                {{/* Special case: Don't show the count for composition pages */}} {{ else }} {{ if gt (len .Pages) 0 }}
+                <!-- Check if there are sub-pages -->
+                ({{ len .Pages }}) {{ end }} {{ end }}
             </li>
             {{ end }}
         </ul>
