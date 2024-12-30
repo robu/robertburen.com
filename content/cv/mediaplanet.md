@@ -10,4 +10,6 @@ cv-section: employment
 type: cv
 ---
 
-_To be written_
+Mediaplanet Group was a content marketing powerhouse. Headquartered in Stockholm, they had approximately 500 employees in 20+ offices in 15 countries.
+
+Robert was assisting MP Group in finding and executing a strategic direction for the group-wide Technology department.

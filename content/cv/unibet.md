@@ -10,4 +10,5 @@ cv-section: employment
 type: cv
 ---
 
-_To be written_
+Head of Unibet's software development and operations.
+Member of Unibet's Executive Management Team.

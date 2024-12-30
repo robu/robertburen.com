@@ -10,4 +10,4 @@ cv-section: employment
 type: cv
 ---
 
-_To be written_
+Blocket is Sweden's dominating C2C marketplace, since 20+ years back. Robert was hired as interim CTO while Blocket was looking for a permanent candidate.

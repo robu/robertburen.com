@@ -10,4 +10,4 @@ cv-section: board
 type: cv
 ---
 
-_To be written_
+Qliro AB, "Qliro Financial Services", is a Nordic fintech company founded 2014 focusing on B2C and B2B2C payments and consumer credit solutions and services, primarily BNPL products.

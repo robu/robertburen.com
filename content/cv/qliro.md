@@ -10,4 +10,4 @@ cv-section: employment
 type: cv
 ---
 
-_To be written_
+While helping Qliro to find a permanent CTO, it became necessary for me to take on the interim role myself for a few months.

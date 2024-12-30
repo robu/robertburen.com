@@ -10,4 +10,5 @@ cv-section: employment
 type: cv
 ---
 
-_To be written_
+Head of SBAB's IT Development and Operations, including Business Intelligence and Project Office.
+Member of SBAB's Executive Management team.

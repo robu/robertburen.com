@@ -10,4 +10,4 @@ cv-section: board
 type: cv
 ---
 
-_To be written_
+GiG is a technology company operating in the iGaming industry, offering cutting edge Cloud-based services and Performance Marketing through our B2B solutions. GiG provides its customers with the technology, solutions and services to create an amazing experience for their users.

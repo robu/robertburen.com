@@ -10,4 +10,6 @@ cv-section: employment
 type: cv
 ---
 
-_To be written_
+Skincity is an online skincare clinic that offers a finely-tuned selection of professional skincare products and make-up. It is also a profitable online retailer grossing 280+ mSEK.
+
+Robert was assisting Skincity in plotting the future direction from a technology point of view, looking (as he usually does) on the People, Process and Platform aspects of technology.

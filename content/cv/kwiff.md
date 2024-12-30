@@ -10,4 +10,4 @@ cv-section: board
 type: cv
 ---
 
-_To be written_
+A revolutionary sports betting app that encourages you to follow your instincts by randomly supercharging odds on any bet you make.
