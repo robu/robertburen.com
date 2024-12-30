@@ -1,6 +1,6 @@
 ---
 date: 2024-12-15T02:52:12+01:00
-draft: true
+draft: false
 lang: en
 organization: Futur
 title: Interim CIO (Consultant)

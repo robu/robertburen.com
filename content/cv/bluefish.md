@@ -1,6 +1,6 @@
 ---
 date: 2024-12-15T02:59:33+01:00
-draft: true
+draft: false
 lang: en
 organization: Bluefish AB
 title: Co-founder, Consultant

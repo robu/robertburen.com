@@ -1,6 +1,6 @@
 ---
 date: 2024-12-10T01:12:41+01:00
-draft: true
+draft: false
 lang: en
 organization: Verkkokauppa.com Oyj
 title: Non-Executive Director

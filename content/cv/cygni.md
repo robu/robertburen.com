@@ -1,6 +1,6 @@
 ---
 date: 2024-12-14T22:47:57+01:00
-draft: true
+draft: false
 lang: en
 organization: Cygni AB
 title: Co-founder, Board Member, Consultant Manager, Consultant

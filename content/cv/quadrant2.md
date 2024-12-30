@@ -1,6 +1,6 @@
 ---
 date: 2024-12-15T02:59:24+01:00
-draft: true
+draft: false
 lang: en
 organization: Quadrant2 AB
 title: Co-founder, Consultant

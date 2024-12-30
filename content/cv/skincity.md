@@ -1,6 +1,6 @@
 ---
 date: 2024-12-15T02:21:57+01:00
-draft: true
+draft: false
 lang: en
 organization: Skincity
 title: Interim CTO (Consultant)

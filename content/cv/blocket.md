@@ -1,6 +1,6 @@
 ---
 date: 2024-12-15T02:49:01+01:00
-draft: true
+draft: false
 lang: en
 organization: Blocket
 title: Interim CTO (Consultant)

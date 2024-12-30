@@ -1,6 +1,6 @@
 ---
 date: 2024-12-08T21:25:31+01:00
-draft: true
+draft: false
 lang: en
 organization: OM Group
 title: Client Software Developer

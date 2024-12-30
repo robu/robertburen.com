@@ -1,6 +1,6 @@
 ---
 date: 2024-12-10T01:14:43+01:00
-draft: true
+draft: false
 lang: en
 organization: Gaming Innovation Group
 title: Non-Executive Director

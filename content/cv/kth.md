@@ -1,6 +1,6 @@
 ---
 date: 2024-12-08T21:16:00+01:00
-draft: true
+draft: false
 lang: en
 organization: Kungliga Tekniska Högskolan
 period: 1994 - 1996

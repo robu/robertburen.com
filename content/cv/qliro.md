@@ -1,6 +1,6 @@
 ---
 date: 2024-12-15T02:44:59+01:00
-draft: true
+draft: false
 lang: en
 organization: Qliro
 title: Interim CTO (Consultant)

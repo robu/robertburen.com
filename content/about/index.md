@@ -3,6 +3,8 @@ title: "About Me"
 date: 2024-12-02T14:00:00+01:00
 type: "about"
 draft: false
+categories:
+- Robert Burén
 ---
 
 Robert Burén (that's me) grew up in Skellefteå, Sweden. He currently lives in a Stockholm suburb, with his wife and three children, and a small dog.

@@ -1,6 +1,6 @@
 ---
 date: 2024-12-15T02:50:43+01:00
-draft: true
+draft: false
 lang: en
 organization: Gigset (now Imagien)
 title: CTO (Consultant)

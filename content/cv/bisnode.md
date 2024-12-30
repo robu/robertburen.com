@@ -1,6 +1,6 @@
 ---
 date: 2024-12-14T23:09:14+01:00
-draft: true
+draft: false
 lang: en
 organization: Bisnode
 title: CTO (Consultant)

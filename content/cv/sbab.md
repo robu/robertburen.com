@@ -1,6 +1,6 @@
 ---
 date: 2024-12-14T23:08:22+01:00
-draft: true
+draft: false
 lang: en
 organization: SBAB Bank
 title: CIO (Consultant)
