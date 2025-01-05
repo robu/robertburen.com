@@ -26,3 +26,25 @@ Jag har full respekt för att bolag i olika faser och storlekar och andra förh�
 -   från välfinanserad startup till noterade bolag med börsvärde: 400 MSEK - 10 miljarder SEK
 -   branscher: online gambling, e-handel, kommunikation, finansiella konsumenttjänster
 -   Sverige, Finland, Storbritannien, Malta
+
+Men, nog med förord, jag tänker att jag börjar enkelt:
+
+## Ha en agenda. Följ den.
+
+Jag har inte varit med om styrelsemöten utan agenda, så där finns nog bara öppna dörrar att sparka in. Men jag vill uppmana till att jobba med agendan, inte bara nöja sig med de vanliga, självklara, och lite för abstrakta, agendapunkterna.
+
+## Årshjul
+
+Ett styrelsemöte är begränsat i tid.
+
+## Besök av ledningen och nyckelpersoner
+
+## Undervisa styrelsen
+
+## Ge oss inläsningsmaterial i förväg
+
+## Följ upp uppföljningspunkter
+
+## Följ upp styrelsens arbete
+
+## Ta en stund utan ledningen (och vd om möjligt) i samband med varje möte
