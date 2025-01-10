@@ -79,3 +79,7 @@ Here you will get "Dates are too close (unexpected)", because even though we int
 Let's add to the confusion...
 
 ## Enter MySQL
+
+MySQL has a number of date and time types. I will focus on the very similar DATETIME and TIMESTAMP types. If you understand them, you can probably figure out the others as well.
+
+Actually, just looking at those two types, you might think they are the same. But they are not.
