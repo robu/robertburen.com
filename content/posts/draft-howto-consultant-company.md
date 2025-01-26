@@ -19,6 +19,8 @@ Vi startade [Cygni](https://cygni.se) 2006 och sålde till Accenture 2021. Jag �
 
 "Cygni ska vara den bästa arbetsplatsen för en duktig och ambitiös Java-utvecklare i Stockholmstrakten." Så formulerade vi vår vision från start. I takt med att vi växte och breddade oss, så breddades också formuleringen, _förutom_ det viktigaste: "Cygni ska vara den bästa arbetsplatsen". Det var vår vision under hela vår resa.
 
+Så, varför välja en sådan ädel vision? För att vi ville vara bättre än andra? Göra världen till en bättre plats? Hänga med coola arbetskamrater? Bli omtyckta
+
 ## Kultur
 
 ## Rekrytering
